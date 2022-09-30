@@ -1,1 +1,84 @@
-hola
+#img-header{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+#logo{
+    height: 25px;
+    width: 25px;
+}
+#header{
+    background-color: rgb(70, 68, 68);
+    height: 30px;
+    width: 100%;
+}
+#nav-bar{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -30px;
+}
+#nav-option{ 
+    margin-right: 2%;
+    color:rgb(196, 194, 194);
+    text-transform: uppercase;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+a{    color:rgb(196, 194, 194);
+    text-decoration: none;
+}
+
+/*PRIMER CONTENEDOR*/
+.one-container{
+    position: relative;
+    display: inline-block;
+}
+.tituloiphone{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color:yellow;
+}
+.description1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color:yellow;
+}
+.description2{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color:yellow;
+}
+.description3{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color:yellow;
+}
+#portada{
+    font-size: 60px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        yellow,
+        green,
+        cyan,
+        blue,
+        mediumpurple,
+        hotpink,
+        orangered);
+    background-size: 90vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imagen-portada{
+    max-width: 100%;
+    max-height: auto;
+}
