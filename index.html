@@ -12,9 +12,9 @@
                 <img id="img-header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png" alt="appleicon"/>
             </div>
             <nav id="nav-bar">
-                <p id="nav-option"><a href="#header">Inicio</a></p>
-                <p id="nav-option"><a href="#three-container">Novedades</a></p>
-                <p id="nav-option"><a href="#six-container">Precios</a></p>
+                <p id="nav-option"><a id="linkinitial" href="#header">Inicio</a></p>
+                <p id="nav-option"><a id="linkinitial" href="#three-container">Novedades</a></p>
+                <p id="nav-option"><a id="linkinitial" href="#six-container">Precios</a></p>
             </nav>
         </header>
         <div class="one-container">
@@ -25,49 +25,53 @@
             <img class="imagen-portada" src="https://www.apple.com/v/iphone-14-pro/a/images/overview/camera/three-camera-system/lenses__fvjzun38amai_large.jpg" alt="Primera imagen del iphone"/>
         </div>
         <div class="two-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FT3ODSg1GFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p><a href="apple.com">Vea mas sobre este producto aqui ...</a></p>
+            <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FT3ODSg1GFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p id><a id="linkinitial" href="apple.com"><strong>apple.com</strong></a></p>
         </div>
         <div class="three-container" id="three-container">
             <section>
-                <div><h1>Nuestra mayor duración de batería hasta ahora con el iPhone 14 Plus. Y una increíble batería para todo el día con el iPhone 14.</h1></div>
-                <div><label>Hasta 26 horas</label><p>de reproduccion de video con el iphone 14 Plus</p></div>
-                <div><label>Hasta 20 horas</label><p>de reproduccion de video con el iphone 14</p></div>
-                <div><label><img src="https://www.apple.com/v/iphone-14/a/images/overview/battery/battery_icon_magsafe__fobxmlvzqpiu_large.jpg"/></label><p>Y con un cargador MagSafe disfrutas una carga inalámbrica más rápida</p></div>
+                <div id="durationbattery"><h1 class="durationbattery">Nuestra mayor duración de batería hasta ahora con el iPhone 14 Plus. Y una increíble batería para todo el día con el iPhone 14.</h1></div>
+                <div class="containerorder"><div class="qualitybattery"><p id="descriptionbattery">Hasta</p><label id="tittlebattery"><strong>26 horas</strong></label><p id="descriptionbattery">de reproduccion de video con el iphone 14 Plus</p></div>
+                <div class="qualitybattery"><p id="descriptionbattery">Hasta</p><label id="tittlebattery"><strong>20 horas</strong></label><p id="descriptionbattery">de reproduccion de video con el iphone 14</p></div>
+                <div class="qualitybattery"><label><img id="Energyicon" src="https://www.apple.com/v/iphone-14/a/images/overview/battery/battery_icon_magsafe__fobxmlvzqpiu_large.jpg"/></label><p id="descriptionbattery">Y con un cargador MagSafe disfrutas una carga inalámbrica más rápida</p></div></div>
             </section>
         </div>
         <div class="four-container">
-            <img src="https://www.apple.com/la/iphone-14/images/overview/display/xdr_display__cxbhgrgt5keq_large.jpg"/>
+            <img id="otherviewimage" src="https://www.apple.com/la/iphone-14/images/overview/display/xdr_display__cxbhgrgt5keq_large.jpg"/>
         </div>
         <div class="five-container">
-            <div>
+            <div class="othercaracteristics">
                 <img src="https://www.apple.com/v/iphone-14/a/images/overview/router/tile_privacy_icon__bh37rbhyklpu_large.jpg"/>
                 <h3>Privacidad integrada.</h3>
                 <p>Descubre las funcionalidades de privacidad más recientes del iPhone</p>
-                <img src="https://www.apple.com/v/iphone-14/a/images/overview/router/tile_privacy__e6iyhsmyl42u_large.jpg"/>
+                <img id="image" src="https://www.apple.com/v/iphone-14/a/images/overview/router/tile_privacy__e6iyhsmyl42u_large.jpg"/>
             </div>
-            <div>
+            <div class="othercaracteristics">
                 <img src="https://www.apple.com/v/iphone-14/a/images/overview/router/tile_environment_icon__ehl2r6jw2rqu_large.jpg" />
                 <h3>Apple tiene un plan.</h3>
                 <p>Descubre cómo lograremos que todos nuestros productos sean neutros en emisiones de carbono para el 2030</p>
-                <img src="https://www.apple.com/v/iphone-14/a/images/overview/router/tile_environment__ezqfwq5e61yu_large.jpg"/>
+                <img id="image" src="https://www.apple.com/v/iphone-14/a/images/overview/router/tile_environment__ezqfwq5e61yu_large.jpg"/>
             </div>
         </div>
         <div class="six-container" id="six-container">
             <div class="price-box">
                 <h3>Iphone 14</h3>
+                <img class="salesphone" src="https://www.apple.com/la/iphone-14/images/overview/hero/hero_blue__fkesnsm4u5qy_large.png"/>
                 <h4>USD 1000</h4>
-                <button>BUY</button>
+                <button>COMPRAR</button>
             </div>
             <div class="price-box">
                 <h3>Iphone 14 Plus</h3>
+                <img class="salesphone" src="https://www.apple.com/la/iphone-14/images/overview/hero/hero_starlight__e51cnln46a2q_large.png"/>
                 <h4>USD 1250</h4>
-                <button>BUY</button>
+                <button>COMPRAR</button>
             </div>
             <div class="price-box">
                 <h3>Iphone 14 Pro</h3>
+                <img class="salesphone" src="https://www.apple.com/la/iphone-14/images/overview/hero/hero_purple__folu9o3eqn2i_large.png"/>
                 <h4>USD 1500</h4>
-                <button>BUY</button>
+                <button>COMPRAR</button>
             </div>
         </div>
         <div class="Newsletter">
