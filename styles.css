@@ -1,4 +1,9 @@
-#img-header{
+header{
+    position: fixed;
+    top: 0;
+    visibility: visible;
+}
+#header-img{
     max-width: 100%;
     max-height: 100%;
     margin-left: 5px;
@@ -22,21 +27,29 @@
 }
 #nav-option{ 
     margin-right: 2%;
+    text-decoration: none;
     color:rgb(196, 194, 194);
-    text-transform: uppercase;
     font-family: Helvetica;
-    text-decoration: none;
+    visibility: visible;
+
 }
-#linkinitial{    color:rgb(196, 194, 194);
+.nav-link{    
     text-decoration: none;
-    text-transform: uppercase;
+    color:white;
     font-family: Helvetica;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: black !important;
+    text-shadow: 0 4px 16px black;
+    transition: all 0.1s ease;
 }
 
 /*PRIMER CONTENEDOR*/
 .one-container{
     position: relative;
     display: inline-block;
+    padding-top: 25px;
 }
 .tituloiphone{
     position: absolute;
@@ -86,11 +99,11 @@
 }
 /*SEGUNDO CONTENEDOR - VIDEO*/
 .two-container{
-    margin-top: -1%;
+    margin-top: 2%;
     display: block;
     justify-content: center;
     text-align: center;
-    background-image: url(https://www.apple.com/la/iphone-14/images/overview/safety/crash_detection_hero__ecbl1m2vyk4m_large.jpg);
+    background-image: url(https://www.apple.com/la/iphone-14-pro/images/overview/router/tile_ios_16__b9bmysz4cu9y_large.jpg);
 }
 /*TERCER CONTENEDOR - BATERIA*/
 #durationbattery{
@@ -192,7 +205,8 @@ button{
     display: inline-block;
 }
 button:hover{
-    color: yellow !important;
+    background-color: white;
+    color: black !important;
     box-shadow: 0 4px 16px rgb(113, 128, 216);
     transition: all 0.1s ease;
 }
@@ -248,10 +262,32 @@ button:hover{
     justify-content: center;
     text-align: center;
 }
-#email{
+#submit{
     font-family: Helvetica;
     font-size: 25px;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 5%;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.footer{
+    text-decoration: none;
+    color:black;
+    font-family: Helvetica;
+    font-size: 15px;
+    margin:1%
+}
+.footer:hover{
+    color: black !important;
+    text-shadow: 0 4px 16px black;
+    transition: all 0.1s ease;
+}
+#copyright{
+    display: flex;
+    justify-content:center;
+    font-size: small;
 }
